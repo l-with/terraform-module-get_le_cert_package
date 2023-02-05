@@ -6,6 +6,7 @@ variable "le_domains" {
 variable "url_header" {
   description = "the header for the url of the Let's Encrypt certificate package"
   type        = string
+  sensitive   = true
 }
 
 variable "lets_encrypt_certificate_package_url" {
