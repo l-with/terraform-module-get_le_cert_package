@@ -9,12 +9,12 @@ variable "url_header" {
   sensitive   = true
 }
 
-variable "lets_encrypt_certificate_package_url" {
+variable "le_certificate_package_url" {
   description = "the url of the Let's Encrypt certificate package"
   type        = string
 }
 
-variable "lets_encrypt_certificate_package_secret" {
+variable "le_certificate_package_secret" {
   description = "the secret to decrypt the certificate package"
   type        = string
 }
