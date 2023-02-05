@@ -1,8 +1,9 @@
 data "system_command" "curl_le_cert_package" {
   command = "curl --output /tmp/le_${var.le_domains}.zip --header ${var.url_header} ${var.le_cert_package_url}"
   expect {
-    stderr = true
-    stdout = true
+    stderr    = true
+    stdout    = true
+    exit_code = 2
   }
 }
 
