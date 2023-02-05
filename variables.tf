@@ -1,5 +1,5 @@
 variable "le_domains" {
-  description = "the string of domains for the certificate package"
+  description = "the string of domains for the Let's Encrypt certificate package"
   type        = string
 }
 
@@ -15,7 +15,7 @@ variable "le_certificate_package_url" {
 }
 
 variable "le_certificate_package_secret" {
-  description = "the secret to decrypt the certificate package"
+  description = "the secret to decrypt the Let's Encrypt certificate package"
   type        = string
   sensitive   = true
 }
