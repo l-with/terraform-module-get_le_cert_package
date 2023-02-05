@@ -17,6 +17,7 @@ variable "le_certificate_package_url" {
 variable "le_certificate_package_secret" {
   description = "the secret to decrypt the certificate package"
   type        = string
+  sensitive   = true
 }
 
 variable "command_to_execute_when_finished" {
