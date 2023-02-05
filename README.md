@@ -28,8 +28,8 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [system_command.curl_le_certificate_package](https://registry.terraform.io/providers/neuspaces/system/latest/docs/data-sources/command) | data source |
-| [system_command.decrypt_and_untar_le_certificate_package](https://registry.terraform.io/providers/neuspaces/system/latest/docs/data-sources/command) | data source |
+| [system_command.curl_le_cert_package](https://registry.terraform.io/providers/neuspaces/system/latest/docs/data-sources/command) | data source |
+| [system_command.decrypt_and_untar_le_cert_package](https://registry.terraform.io/providers/neuspaces/system/latest/docs/data-sources/command) | data source |
 | [system_command.when_finished](https://registry.terraform.io/providers/neuspaces/system/latest/docs/data-sources/command) | data source |
 
 ## Inputs
