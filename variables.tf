@@ -9,19 +9,19 @@ variable "url_header" {
   sensitive   = true
 }
 
-variable "le_certificate_package_url" {
+variable "le_cert_package_url" {
   description = "the url of the Let's Encrypt certificate package"
   type        = string
 }
 
-variable "le_certificate_package_secret" {
+variable "le_cert_package_secret" {
   description = "the secret to decrypt the Let's Encrypt certificate package"
   type        = string
   sensitive   = true
 }
 
 variable "command_to_execute_when_finished" {
-  description = "the command to be executed when finished (e.g. restart web server)"
+  description = "the command to execute when finished (e.g. restart web server)"
   type        = string
   default     = ""
 }

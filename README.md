@@ -36,9 +36,9 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_command_to_execute_when_finished"></a> [command\_to\_execute\_when\_finished](#input\_command\_to\_execute\_when\_finished) | the command to be executed when finished (e.g. restart web server) | `string` | `""` | no |
-| <a name="input_le_certificate_package_secret"></a> [le\_certificate\_package\_secret](#input\_le\_certificate\_package\_secret) | the secret to decrypt the Let's Encrypt certificate package | `string` | n/a | yes |
-| <a name="input_le_certificate_package_url"></a> [le\_certificate\_package\_url](#input\_le\_certificate\_package\_url) | the url of the Let's Encrypt certificate package | `string` | n/a | yes |
+| <a name="input_command_to_execute_when_finished"></a> [command\_to\_execute\_when\_finished](#input\_command\_to\_execute\_when\_finished) | the command to execute when finished (e.g. restart web server) | `string` | `""` | no |
+| <a name="input_le_cert_package_secret"></a> [le\_cert\_package\_secret](#input\_le\_cert\_package\_secret) | the secret to decrypt the Let's Encrypt certificate package | `string` | n/a | yes |
+| <a name="input_le_cert_package_url"></a> [le\_cert\_package\_url](#input\_le\_cert\_package\_url) | the url of the Let's Encrypt certificate package | `string` | n/a | yes |
 | <a name="input_le_domains"></a> [le\_domains](#input\_le\_domains) | the string of domains for the Let's Encrypt certificate package | `string` | n/a | yes |
 | <a name="input_url_header"></a> [url\_header](#input\_url\_header) | the header for the url of the Let's Encrypt certificate package | `string` | n/a | yes |
 
