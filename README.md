@@ -1,6 +1,6 @@
-# terraform-module-ningx
+# Terraform Module Get Let's Encrypt Certificate
 
-Terraform module which gets and installs encrypted Let's Encrypt certificate package from url.
+Terraform module which gets and installs encrypted Let's Encrypt certificate package from url by [Terraform Provider for (Operating) System](https://registry.terraform.io/providers/neuspaces/system).
 
 This role can be used to get a prepared package of a Let's Encrypt Cerificate (for instance by DNS challenge).
 
